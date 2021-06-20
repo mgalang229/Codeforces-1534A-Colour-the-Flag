@@ -33,7 +33,7 @@ int main() {
 			// if yes, then output NO (because it means that either one of
 			// them or both is located in the same position)
 			cout << "NO\n";
-			// contine the while-loop
+			// continue the while-loop
 			continue;
 		}
 		// 'cc' contains characters 'R' and 'W'
