@@ -26,7 +26,7 @@ int main() {
 		}
 		// 'v' = checks if 'R' is at an even postion and 'W' is at an odd position
 		int v = r[1] | w[0];
-		// 'VV' = checks if 'R' is at an odd postion and 'W' is at an even position
+		// 'vv' = checks if 'R' is at an odd postion and 'W' is at an even position
 		int vv = r[0] | w[1];
 		// check if both 'v' and 'vv' is both true
 		if (v && vv) {
